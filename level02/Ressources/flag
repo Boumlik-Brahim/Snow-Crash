@@ -1,0 +1,4 @@
+scp -P 4242 level02@10.13.100.19:/home/user/level02/level02.pcap .
+
+getflag
+Check flag.Here is your token : kooda2puivaav1idi4f57q8iq
